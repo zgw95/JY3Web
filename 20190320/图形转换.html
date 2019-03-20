@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			div
+			{
+				margin: 0 auto;
+			}
+			div:nth-child(1)
+			{
+				transition: 2s;    /*完成过渡效果需要多少秒*/
+				transition-delay: 0.5s;  /*定义过渡效果何时开始*/
+				background-color: red;
+				width: 100px;
+				height: 100px;
+			}
+			div:nth-child(1):hover
+			{
+				background-color: blue;
+			}
+			
+			div:nth-child(2)
+			{  
+				background-color: green;
+				width: 150px;
+				height: 150px;
+			}
+			div:nth-child(2):hover
+			{
+				transform: translate(10px,25px);  /*沿X Y轴 移动多少像素*/
+			}
+			
+			div:nth-child(3)
+			{
+				width: 200px;
+				height: 200px;
+				background-color: yellow;
+			}
+			div:nth-child(3):hover
+			{
+				transform: rotateZ(45deg);  /*沿Z轴旋转多少角度*/
+			}
+			
+			div:nth-child(4)
+			{
+				width: 250px;
+				height: 250px;
+				background-color: blue;	
+			}
+			div:nth-child(4):hover
+			{
+				transform: scale(2);  /*成比例放大或缩小*/
+			}
+			span
+			{
+				
+			}
+		</style>
+	</head>
+	<body>
+		<div><span>过渡</span></div>
+		<div><span>平移</span></div>
+		<div><span>旋转</span></div>
+		<div><span>缩放</span></div>
+	</body>
+</html>

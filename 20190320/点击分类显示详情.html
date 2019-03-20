@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			*
+			{
+				margin: 0;
+				padding: 0;
+			}
+			div
+			{
+				float: left;
+			}
+			#category
+			{
+				width: 190px;
+				height: 480px;
+				background-color: antiquewhite;
+			}
+			ul
+			{
+				list-style: none;
+				margin: 30px;
+			}
+			a
+			{
+				color: black;
+				text-decoration: blink;
+			}
+			#content
+			{
+				width: 1000px;
+				height: 480px;
+				background-color: aqua;
+				display: none;
+			}
+			#category:hover + #content,#content:hover
+			{
+				display: block;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div id="category">
+			<ul>
+				<li><a href="#">家用电器</a></li>
+				<li><a href="#">手机</a></li>
+				<li><a href="#">电脑</a></li>
+				<li><a href="#">家居</a></li>
+			</ul>
+		</div>
+		<div id="content"></div>
+	</body>
+</html>
