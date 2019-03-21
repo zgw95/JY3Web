@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			*
+			{
+				margin: 0;
+				padding: 0;
+			}
+			body
+			{
+				width: 100%;
+				height: 100%;
+				background-color: darkkhaki;
+				position: fixed;
+				
+			}
+			#container
+			{
+				width: 35%;
+				height: 80%;
+				border: 1px solid black;
+				background-color: burlywood;
+				/*overflow: hidden;  */            /*溢出隐藏*/
+				display: flex;
+				flex-direction: column;
+				justify-content: flex-end;
+			}
+			.subDiv
+			{
+				width: 100%;
+			/*	border: 1px solid blue;	*/
+				text-align: center;
+			}
+			#top
+			{
+				height: 3%;
+				background-color: white;
+			} 
+			
+			#wechat
+			{
+				
+				height: 10%;
+				background-color: black;
+			}
+			#special
+			{
+				font-size: 30px;
+				color: ghostwhite;
+				
+			}
+			#special2
+			{
+				font-size: 40px;
+				color: ghostwhite;
+			}
+			#search
+			{
+				height: 10%;
+				background-color: grey;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			#search2    /*搜索栏中的框*/
+			{
+				width: 90%;
+				height: 60%;
+				background-color: white;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				color: gray;
+				
+			}
+			#search3    /*搜索栏中的框中的字*/
+			{
+				width: 20%;
+				height: 60%;
+			}
+			#chat
+			{
+				height: 67%;
+				overflow: hidden;
+			
+			}
+			.chat2
+			{
+				width: 100%;
+				height: 13%;
+				border-bottom: 1px solid gray;
+			}
+			#bottom
+			{
+				height: 10%;
+				display: flex;
+				flex-wrap: wrap;
+			}
+			.small
+			{
+				width: 25%;
+				height: 50%;
+				background-color: white;
+				display:flex ;
+				justify-content: center;
+				align-items: center;
+			}
+			img
+			{
+				width: 80%;
+				height: 80%;
+			}
+			span
+			{
+				color: gray;
+				
+			}
+			#wechat
+			{
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+				
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div id="container">
+			<div class="subDiv" id="top">
+				
+			</div>
+			
+			<div class="subDiv" id="wechat">
+				<span id=""></span>
+				<span id="special">微信</span>
+				<span id="special2"></span>
+			</div>
+			
+			<div class="subDiv" id="search">
+				<div id="search2">
+					<div id="seach3">
+						搜索
+					</div>
+				</div>
+			</div>
+			
+			
+			<div class="subDiv" id="chat">
+				<div class="chat2">1</div>
+				<div class="chat2">2</div>
+				<div class="chat2">3</div>
+				<div class="chat2">4</div>
+				<div class="chat2">5</div>
+				<div class="chat2">6</div>
+				<div class="chat2">7</div>
+				<div class="chat2">8</div>
+				
+			</div>
+			<div class="subDiv" id="bottom">                   <!-- 底部-->
+				<div class="small">
+					<img src="img/微信.svg"/>
+				</div>
+				<div class="small">
+					<img src="img/通讯录.svg"/>
+				</div>
+				<div class="small">
+					<img src="img/发现.svg"/>
+				</div>
+				<div class="small">
+					<img src="img/我.svg"/>
+				</div>
+				<div class="small">
+					<span >微信</span>
+				</div>
+				<div class="small">
+					<span >通讯录</span>
+				</div>
+				<div class="small">
+					<span >发现</span>
+				</div>
+				<div class="small">
+					<span >我</span>
+				</div>
+			</div>
+			
+		</div>
+	</body>
+</html>
