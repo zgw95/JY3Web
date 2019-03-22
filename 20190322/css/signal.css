@@ -1,0 +1,108 @@
+#signal
+{
+	width: 100%;
+	height: 30px;
+	background-color: black;
+	display: flex;
+	
+	
+}
+#signalL       /*信号栏左侧盒子*/
+{
+	width: 40%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+#signalM       /*信号栏中间盒子*/
+{
+	width: 20%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 7px;
+}
+#signalR       /*信号栏右侧盒子*/
+{
+	width: 40%;
+	height: 100%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+#signalL-circel   /*信号栏最左侧的五个信号小圆的块*/
+{
+	height: 100%;
+	display: flex;
+	align-items: center;
+	margin-left: 10px;
+	
+	
+}
+.good                    /*有信号的小圆*/
+{
+	width: 7px;
+	height: 7px;
+	border-radius: 50%;
+	border: 1px solid white;
+	background-color: white;
+}
+.bad                   /*没信号的小圆*/
+{
+	width: 7px;
+	height: 7px;
+	border-radius: 50%;
+	border: 1px solid white;
+}
+#signalL-word          /*通讯商名称的块*/
+{
+	display: flex;
+	align-items: center;
+	margin-left: 5px;
+	font-size: 5px;
+}
+
+#signalL-wifi            /*WiFi图标的块*/
+{
+	width: 20px;
+	height: 20px;
+	margin-left: 5px;
+}
+#signalL-wifi img         /*WiFi图标的图片*/
+{
+	width: 100%;
+	height: 100%;
+}
+ 
+ 
+#lock-picture            /*旋转锁定图标的块*/
+{
+	width: 20px;
+	height: 20px;
+}
+#lock-picture img         /*旋转锁定图标的图片*/
+{
+	width: 100%;
+	height: 100%;
+}
+#battery-number          /*电量数字的块*/
+{
+	display: flex;
+	align-items: center;
+	margin-left: 5px;
+	font-size: 5px;
+	margin-right: 5px;
+}
+
+#battery-picture            /*电量图标的块*/
+{
+	width: 20px;
+	height: 20px;
+	margin-right: 5px;
+}
+#battery-picture img         /*电量图标的图片*/
+{
+	width: 100%;
+	height: 100%;
+}

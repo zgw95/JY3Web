@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>jquery-click</title>
+		<style type="text/css">
+			#div1
+			{
+				width: 200px;
+				height: 100px;
+				background-color: blue;
+				display: none;
+			}		
+		</style>
+		<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+	     <img src="img/发现.svg" id="img1">
+	     <div id="div1"> </div>
+	</body>
+	<script type="text/javascript">
+		$(function(){
+			$("#img1").click(function(){
+				$("#div1").toggle(500);
+			})
+		})
+	</script>
+</html>
