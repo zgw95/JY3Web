@@ -1,0 +1,45 @@
+#title
+{
+	width: 100%;
+	height: 40px;
+	background-color: gray;
+	display: flex;
+}
+#title-word                 /*微信标题*/
+{
+	width: 60%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	margin-left: 10px;
+	color: gainsboro;
+}
+#title-search               /*搜索图标的块*/
+{
+	width:20%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+#title-search img           /*搜索图标的图片*/
+{
+	width: 25px;
+	height: 25px;
+	margin-right: 10px;
+}
+#title-plus                  /*加号图标的块*/
+{
+	width: 20%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content:flex-end ;
+	
+} 
+#title-plus img              /*加号图标的图片*/
+{
+	width: 25px;
+	height: 25px;
+	margin-right: 16px;
+}

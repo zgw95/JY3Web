@@ -1,0 +1,23 @@
+#menu
+{
+	width: 100%;
+	height: 50px;
+	background-color: gray;
+	display: flex;
+}
+.menu-4small
+{
+	flex: 0.25;
+	/*border: 1px solid black;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: black;
+	
+}
+.menu-4small img
+{
+	width: 25px;
+	height: 25px;
+}

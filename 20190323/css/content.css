@@ -1,0 +1,78 @@
+#content                  /*整个聊天列表*/
+{
+	width: 100%;
+	flex: 1;
+	background-color: white;
+	overflow:scroll;
+}
+.list                    /*聊天列表的块*/
+{
+	width: 95%;
+	height: 70px;
+	/*background-color: floralwhite;*/
+	margin: 0 auto 0 auto;
+	display: flex;
+	align-items: center;
+}
+.list-head             /*头像的块*/
+{
+	width: 70px;
+	height: 70px;
+	display: flex;
+	align-items: center;
+}
+.list-head img           /*头像块中的照片*/
+{
+	width: 80%;
+	height: 80%;
+	border-radius: 6px;
+}
+.list-message             /*列表信息部分的块*/
+{
+	flex: 1;
+	height:100%;
+	border-top:1px solid gray;
+	border-bottom: 1px solid gray;
+	display: flex;
+	align-items: center;
+}
+.list-message-middle
+{
+	height:75%;
+	/*background-color: azure;*/
+}
+.list-message h3,p
+{
+	color: black;
+}
+
+
+.list-time               /*列表时间部分的块*/
+{
+	width: 40px;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	border-top:1px solid gray;
+	border-bottom: 1px solid gray;
+}
+.list-time-middle
+{
+	/*width: 40px;*/
+	height: 75%;
+	display: flex;
+	flex-direction: column;
+	align-items:flex-end ;
+	/*background-color: aquamarine;*/
+}
+.list-time span              /*列表时间部分 的时间*/
+{
+	font-size: 12px;
+	color: gray;
+}
+.list-time img                 /*列表时间部分 的静音图标*/
+{
+	width: 20px;
+	height: 20px;
+	margin-top: 10px;
+}

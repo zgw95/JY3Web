@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		<title>聊天界面</title>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/container.css"/>
+		<link rel="stylesheet" type="text/css" href="css/signal.css"/>
+		<link rel="stylesheet" type="text/css" href="css/title2.css"/>
+		<link rel="stylesheet" type="text/css" href="css/content2.css"/>
+		<link rel="stylesheet" type="text/css" href="css/menu2.css"/>
+		<style>
+			iframe
+			{
+				position: absolute;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="container">
+			<div id="signal">                        <!--信号栏-->
+				<div id="signalL">                      <!--左部分-->
+					<div id="signalL-circel">                   <!--信号栏的五个信号小圆-->
+						<div class="good"></div>
+						<div class="good"></div>
+						<div class="good"></div>
+						<div class="bad"></div>
+						<div class="bad"></div>
+					</div>
+					<span id="signalL-word" >China</span>      <!--通讯商名称-->
+					<div id="signalL-wifi">                    <!--WiFi图标-->
+						<img src="img/wifi.svg"/>
+					</div>
+				</div>
+				
+				<div id="signalM">11:11</div>                  <!--中间时间部分-->
+				
+				<div id="signalR">                          <!--右部分-->
+					<div id="lock-picture">                      <!--旋转锁定图标-->
+						<img src="img/lock.svg"/>  
+					</div>
+					<span id="battery-number">                   <!--电量数字-->
+						16%
+					</span>
+					<div id="battery-picture">
+						<img src="img/battery.svg"/>             <!--电量图标-->
+					</div>  
+				</div>
+			</div>     
+			
+			<div id="title2">                                    <!--标题栏-->
+				<div id="title2-left">
+					<a href="微信基本界面.html" target="iframe2"><img src="img/left-angle.svg"/></a>
+				</div>
+				<div id="title2-middle">梅西</div>
+				<div id="title2-right">
+					<img src="img/sangedian.svg"/>
+				</div>
+			</div>
+			
+			
+			<div id="content2">                       <!--内容栏-->
+				<!--<div class="content2-you">              
+					<img src="img/Messi.jpg"/>
+					<img id="content2-chat-a" src="img/kuangR.svg"/>
+				</div>
+				<div class="content2-me">              
+					<img id="content2-chat" src="img/kuangR.svg"/>
+					<img src="img/c罗.PNG"/>
+				</div>-->
+				
+				<div class="content2-you">              <!--对方的输入行-->
+					<img src="img/Messi.jpg"/>
+					<div class="talk" id="you-talk">
+						<p>我是最佳球员！我是最佳球员！我是最佳球员！</p>
+					</div>
+				</div>
+				<div class="content2-me">                <!--本方的输入行-->
+					<div class="talk" id="me-talk">
+						<p>不，我是最佳球员！我是最佳球员！我是最佳球员！</p>
+					</div>
+					<img src="img/c罗.PNG"/>
+				</div>
+				<div class="content2-you">              <!--对方的输入行-->
+					<img src="img/Messi.jpg"/>
+					<div class="talk" id="you-talk">
+						<p>我是最佳球员！我是最佳球员！我是最佳球员！</p>
+					</div>
+				</div>
+				<div class="content2-me">                <!--本方的输入行-->
+					<div class="talk" id="me-talk">
+						<p>不，我是最佳球员！我是最佳球员！我是最佳球员！</p>
+					</div>
+					<img src="img/c罗.PNG"/>
+				</div>
+				<div class="content2-you">              <!--对方的输入行-->
+					<img src="img/Messi.jpg"/>
+					<div class="talk" id="you-talk">
+						<p>我是最佳球员！我是最佳球员！我是最佳球员！</p>
+					</div>
+				</div>
+				<div class="content2-me">                <!--本方的输入行-->
+					<div class="talk" id="me-talk">
+						<p>不，我是最佳球员！我是最佳球员！我是最佳球员！</p>
+					</div>
+					<img src="img/c罗.PNG"/>
+				</div>
+				<div class="content2-you">              <!--对方的输入行-->
+					<img src="img/Messi.jpg"/>
+					<div class="talk" id="you-talk">
+						<p>我是最佳球员！我是最佳球员！我是最佳球员！</p>
+					</div>
+				</div>
+				<div class="content2-me">                <!--本方的输入行-->
+					<div class="talk" id="me-talk">
+						<p>不，我是最佳球员！我是最佳球员！我是最佳球员！</p>
+					</div>
+					<img src="img/c罗.PNG"/>
+				</div>
+				<div class="content2-you">              <!--对方的输入行-->
+					<img src="img/Messi.jpg"/>
+					<div class="talk" id="you-talk">
+						<p>我是最佳球员！我是最佳球员！我是最佳球员！</p>
+					</div>
+				</div>
+				<div class="content2-me">                <!--本方的输入行-->
+					<div class="talk" id="me-talk">
+						<p>不，我是最佳球员！我是最佳球员！我是最佳球员！</p>
+					</div>
+					<img src="img/c罗.PNG"/>
+				</div>
+				<div class="content2-you">              <!--对方的输入行-->
+					<img src="img/Messi.jpg"/>
+					<div class="talk" id="you-talk">
+						<p>我是最佳球员！我是最佳球员！我是最佳球员！</p>
+					</div>
+				</div>
+				<div class="content2-me">                <!--本方的输入行-->
+					<div class="talk" id="me-talk">
+						<p>不，我是最佳球员！我是最佳球员！我是最佳球员！</p>
+					</div>
+					<img src="img/c罗.PNG"/>
+				</div>
+				
+			</div>
+			
+			
+			
+			<div id="menu2">                          <!--菜单栏-->
+				<div id="menu2-first">
+					<img src="img/yuyin.svg"/>
+				</div>
+				<div id="menu2-second">
+					<div id="text-border"></div>
+				</div>
+				<div id="menu2-third">
+					<img src="img/xiaolian.svg"/>
+				</div>
+				<div id="menu2-last">
+					<img src="img/jiahao.svg"/>
+				</div>
+			</div>  
+			
+			
+			
+		</div>
+	</body>
+</html>
