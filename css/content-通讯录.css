@@ -1,0 +1,54 @@
+#content                  /*整个聊天列表*/
+{
+	width: 100%;
+	flex: 1;
+	background-color: gainsboro;
+	overflow:scroll;
+}
+.x-list                         /*列表栏*/
+{
+	width: 100%;
+	height: 60px;
+	background-color: white;
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid gainsboro;
+}
+.x-list .left
+{
+	width: 40px;
+	height: 40px;
+	/*background-color: red;*/
+	margin-left: 15px;
+}
+.x-list .left img
+{
+	width: 100%;
+	height: 100%;
+}
+
+.x-list .center
+{
+	flex: 1;
+	height: 30px;
+	color: black;
+	line-height: 30px;
+	margin-left: 15px;
+	
+}
+#star-friend           /*星标朋友   */        
+{
+	width: 100%;
+	height: 30px;
+	color: gray;
+	line-height: 30px;
+	text-indent: 15px;
+}
+.abc                      /*首字母分隔栏*/
+{
+	width: 100%;
+	height: 40px;
+	color: gray;
+	line-height: 30px;
+	text-indent: 15px;
+}
