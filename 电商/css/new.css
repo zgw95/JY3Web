@@ -1,0 +1,67 @@
+/*顶部栏*/
+#container
+{
+	background-color: #F2F2F2;
+}
+
+#new-1
+{
+	width: 100%;
+	height: 44px;
+	border-bottom: 1px solid #F2F2F2;
+	display: flex;
+	align-items: center;	
+	margin-bottom: 40px;
+	border-bottom: 1px solid gray;
+}
+#new-1 img
+{
+	width: 24px;
+	height: 24px;
+	margin-left: 20px;
+}
+#new-1 p
+{
+	font-size: 24px;
+	margin-left: 120px;
+}
+/*选择地区 和  手机号*/
+#new-2,#new-3
+{
+	width: 100%;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	margin-top: 10px;
+}
+#new-2 div,#new-3 div
+{
+	width: 140px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+}
+#new-2 select,#new-3 input
+{
+	font-size:14px ;
+	width: 235px;
+	height: 40px;
+	border: none;
+	background-color: white;
+}
+/*完成验证*/
+#new-4
+{
+	width: 100%;
+	height: 48px;
+	margin-top: 15px;
+	display: flex;
+	justify-content: center;
+}
+#new-4 button
+{
+	width: 120px;
+	height: 48px;
+}

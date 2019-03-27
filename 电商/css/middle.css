@@ -1,0 +1,144 @@
+#middle
+{
+	flex: 1;
+	/*background-color: aliceblue;*/
+	overflow: scroll;
+}
+#first
+{
+	width:100%;
+	height: 120px;
+	/*background-color: lavenderblush;*/
+}
+#second
+{
+	width:100%;
+	height: 200px;
+	/*background-color: sandybrown;*/
+}
+#third
+{
+	width:100%;
+	height: 190px;
+	/*background-color: lemonchiffon;*/
+}
+#forth
+{
+	width:100%;
+	height: 190px;
+	/*background-color:yellowgreen;*/
+}
+/*第一部分*/
+.lunbo         /*轮播图片的样式*/
+{
+	width: 100%;
+	height: 100%;
+}
+/*第二部分*/
+.tubiaokuai          /*六个图标块一分为二*/
+{
+	width: 100%;
+	height: 50%;
+	display: flex;
+	justify-content:a;
+}
+#second div div            /*六个图标框*/
+{
+	width: 68px;
+	height: 68px;
+	border: 1px solid black;
+	border-radius: 10px;
+	margin-left: 41px;
+	margin-top: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.img60px     
+{
+	width: 60px;
+	height: 60px;
+}
+.img50px     
+{
+	width: 50px;
+	height: 50px;
+}
+/*第三部分*/
+#third-top
+{
+	width: 100%;
+	height: 20px;
+	margin-top: 10px;
+}
+#third-bottom
+{
+	width: 100%;
+	height: 180px;
+	display: flex;
+	margin-top: 10px;	
+}
+#third-bottom div
+{
+	width: 90px;
+	height: 135px;
+	margin-left: 3px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#third-bottom div img
+{
+	width: 90px;
+	height: 90px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+#third-bottom p
+{
+	font-size: 12px;
+	margin-top: 5px;
+}
+
+/*第四部分*/
+#forth-top
+{
+	width: 100%;
+	height: 20px;
+	margin-top: 10px;
+}
+#forth-bottom
+{
+	width: 100%;
+	height: 180px;
+	display: flex;
+	margin-top: 10px;	
+}
+#forth-bottom div
+{
+	width: 90px;
+	height: 135px;
+	margin-left: 3px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#forth-bottom div img
+{
+	width: 90px;
+	height: 90px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+#forth-bottom p
+{
+	font-size: 12px;
+	margin-top: 5px;
+}
+a
+{
+	text-decoration: none;
+	color: black;
+}
