@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		<title>测试用mate20</title>
+		<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+		<link rel="stylesheet" type="text/css" href="css/container.css" />
+		<link rel="stylesheet" type="text/css" href="css/mate20购买新.css" />
+		<link rel="stylesheet" type="text/css" href="css/华为mate20新.css"/>
+		
+		<style type="text/css">
+			
+			/*商品介绍栏*/
+			#shangpinjieshao
+			{
+				width: 100%;
+				height: 100%;
+				background-color: white;
+				display: flex;
+				flex-direction: column;
+			}
+			
+			/*商品购买栏*/
+			#shangpingoumai
+			{
+				width: 100%;
+				height: 100%;
+				display: flex;
+				flex-direction: column;
+				position: absolute;
+				transition: 1s;
+				top: 0px;
+				display: none;
+			}
+			
+		</style>
+	</head>
+
+	<body>
+		<div id="container">
+			
+			
+			<div id="shangpinjieshao">
+				<div id="mate20-title"></div>
+				<div id="mate20-picture"></div>
+				<div id="mate20-word"></div>
+				<div id="mate20-price"></div>
+				<div id="mate20-none"></div>
+				<div id="mate20-menu"></div>
+			</div>
+			
+			<div id="shangpingoumai" >
+				<div id="none"></div>
+				<div id="main">
+					<div id="head"></div>
+					<div id="body"></div>
+				</div>			
+			</div>
+			
+			
+		</div>
+		
+		
+		<script src="js/mate20购买新.js"></script>
+		<script src="js/华为mate20新.js" ></script>
+		<script>
+			
+			$(function(){
+				$("#menu4").click(function(){
+					$("#shangpingoumai").toggle();
+				});
+				
+				$("#cancel").click(function(){
+					$("#shangpingoumai").toggle();
+				})
+			})
+		</script>
+	</body>
+
+</html>
